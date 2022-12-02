@@ -1,0 +1,28 @@
+<div class="col-md-12" style="overflow:visible">
+<h4><i class="fa fa-angle-right"></i>New Image Slide</h4>
+<hr>
+
+
+<div style="margin:1%">
+<form action="{BASE_URL}slideimage/act_new_slide" method="post" name="frm1" id="frm1" enctype="multipart/form-data">
+
+<div style="display:none">
+<h4><span>English</span></h4>
+
+<h5><span>Title</span></h5>
+<input type="text" name="title_en"   style="width:90%"/>
+<h5><span>Description</span></h5>
+<textarea class="form-control" id="form-field-8" placeholder="Default Text" name="desc_en" style="height:400px"></textarea>
+
+<h4><span>Indonesian</span></h4>
+
+<h5><span>Title</span></h5>
+<input type="text" name="title_id"/>
+<h5><span>Description</span></h5>
+<textarea class="form-control" id="form-field-4" placeholder="Default Text" name="desc_id"  style="height:400px"></textarea>
+</div>
+<input type="file" name="namafile"  />
+<br>
+<input class="btn btn-info btn-sm" type="submit" name="Submit" value="SAVE">
+</form>
+</div>

@@ -1,0 +1,24 @@
+<div class="statusbarcx">
+
+<div class="start-buttoncx">
+    <div class="list-menu">
+        <ul>
+            <!-- START LOOPING: record -->
+            <li onclick="getContent('{VLINK}','{VMMID}');"><img src="{VIMAGES}" />{VMENU}</li>
+            <!-- END LOOPING: record -->
+        </ul>
+    </div>
+</div>
+</div>
+<script type="text/javascript">
+
+$(document).ready(function() {
+    
+    $(".start-buttoncx").click(function() {
+        
+        $(".list-menu").slideToggle();
+
+    });
+});
+
+</script>

@@ -1,0 +1,141 @@
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 29
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 32
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JRequest::clean() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 33
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home/h41333/public_html/test/libraries/joomla/environment/request.php on line 463
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home/h41333/public_html/test/libraries/joomla/environment/request.php on line 464
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home/h41333/public_html/test/libraries/joomla/environment/request.php on line 465
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home/h41333/public_html/test/libraries/joomla/environment/request.php on line 466
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home/h41333/public_html/test/libraries/joomla/environment/request.php on line 467
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JRequest::_cleanArray() should not be called statically in /home/h41333/public_html/test/libraries/joomla/environment/request.php on line 468
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 35
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 38
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 39
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 46
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 47
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 50
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 53
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 54
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 57
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/joomla/import.php on line 58
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JFactory::getApplication() should not be called statically in /home/h41333/public_html/test/administrator/index.php on line 33
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Redefining already defined constructor for class JObject in /home/h41333/public_html/test/libraries/joomla/base/object.php on line 57
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JApplication::getInstance() should not be called statically in /home/h41333/public_html/test/libraries/joomla/factory.php on line 46
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JApplicationHelper::getClientInfo() should not be called statically in /home/h41333/public_html/test/libraries/joomla/application/application.php on line 132
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Declaration of JAdministrator::getRouter() should be compatible with & JApplication::getRouter($name = NULL, $options = Array) in /home/h41333/public_html/test/administrator/includes/application.php on line 293
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/application/application.php on line 732
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::_createConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 73
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/joomla/registry/registry.php on line 19
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JUtility::getHash() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/application/application.php on line 101
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/utilities/utility.php on line 111
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/application/application.php on line 384
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getSession() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/application/application.php on line 770
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::_createSession() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 94
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 501
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Declaration of JSession::set() should be compatible with JObject::set($property, $value = NULL) in /home/h41333/public_html/test/libraries/joomla/session/session.php on line 737
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/joomla/session/session.php on line 19
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JSession::getInstance() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 507
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JSessionStorage::getInstance() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/session/session.php on line 108
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFilterInput::clean() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/session/storage.php on line 57
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getDBO() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/session/storage/database.php on line 64
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 268
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::_createDBO() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 271
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 551
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JDatabase::getInstance() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 563
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JError::setErrorHandling() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/database/database.php on line 226
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JError::raiseError() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/database/database.php on line 227
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JText::_() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/database/database.php on line 227
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getLanguage() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/methods.php on line 120
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 116
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::_createLanguage() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 119
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getConfig() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 683
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JLanguage::getInstance() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/factory.php on line 685
+[14-Jul-2018 16:13:53 UTC] PHP Deprecated:  Non-static method JFactory::getXMLParser() should not be called statically, assuming $this from incompatible context in /home/h41333/public_html/test/libraries/joomla/language/language.php on line 760
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::import() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 186
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 71
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::load() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 161
+[14-Jul-2018 16:13:53 UTC] PHP Strict Standards:  Non-static method JLoader::register() should not be called statically in /home/h41333/public_html/test/libraries/loader.php on line 138
+[14-Jul-2018 16:13:53 UTC] PHP Fatal error:  Class 'JRegistryFormat' not found in /home/h41333/public_html/test/libraries/joomla/registry/registry.php on line 373

@@ -1,0 +1,38 @@
+<script src="{BASE_URL}assets/ckeditor/ckeditor.js"></script>
+<script src="{BASE_URL}assets/ckeditor/js/sample.js"></script>
+<link rel="stylesheet" href="{BASE_URL}assets/ckeditor/css/samples.css">
+<link rel="stylesheet" href="{BASE_URL}assets/ckeditor/toolbarconfigurator/lib/codemirror/neo.css">
+
+<div style="margin:1%">
+
+<h4><i class="fa fa-angle-right"></i>Add / Edit Promo</h4>
+<hr>
+<div id=""></div>
+
+    <form method="post" name="frm" id="frm" action="{BASE_URL}layanan_unggulan/act_pelayanan" enctype="multipart/form-data">
+    <input type="hidden" value="{LID}" name="lid" />
+        <div class="form-group">
+        <label>Kategori</label>
+        {KATEGORI}
+        <label>Judul</label>
+            <input class="form-control" type="text" value="{TITLE}" style="width:100%;" name="title" id="title" required="required" />
+
+        <label>Content</label>
+        <textarea rows="6" class="form-control" name="content" id="editor" style="width:100%">{CONTENT}</textarea>
+
+            <input  type="file" name="images" id="images"  />
+<br>
+        
+    <div style="clear:both"></div>
+				{IMAGE}
+    <div style="clear:both"></div>
+
+<button class="btn btn-default" type="submit" style="margin-top:1%">Save</button>
+</div>
+	</form>
+
+                </div>
+                <!-- /.row -->
+<script>
+	initSample();
+</script>

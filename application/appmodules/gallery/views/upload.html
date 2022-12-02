@@ -1,0 +1,22 @@
+
+<div style="margin:1%">
+    <h4><i class="fa fa-angle-right"></i> Upload New Gallery</h4>
+<hr>
+
+<form action="{BASE_URL}gallery/act_upload_gallery" method="post" name="frm1" id="frm1" enctype="multipart/form-data">
+Title
+<input type="text" value="{title}" name="title" style="width:60%; margin-bottom:10px" required="required" class="form-control"  />
+Kategori
+{KATEGORI}
+<br>
+File
+<input type="file" name="images" {REQ} />
+<br>
+<input type="hidden" value="{GID}" name="gid" style="width:60%; margin-bottom:10px"  class="form-control"  />
+
+Urutan
+<input type="text" value="{urutan}" name="urutan" style="width:5%; margin-bottom:10px"  class="form-control"  />
+<br>
+<input class="btn btn-info" type="submit" name="Submit" value="SAVE">
+</form>
+</div>

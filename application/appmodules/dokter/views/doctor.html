@@ -1,0 +1,136 @@
+<style type="text/css">
+    .btn-file {
+        position: relative;
+        overflow: hidden;
+    }
+    .btn-file input[type=file] {
+        position: absolute;
+        top: 0;
+        right: 0;
+        min-width: 100%;
+        min-height: 100%;
+        font-size: 100px;
+        text-align: right;
+        filter: alpha(opacity=0);
+        opacity: 0;
+        outline: none;
+        background: white;
+        cursor: inherit;
+        display: block;
+    }
+</style>
+<div style="margin:1%">
+
+<h4><i class="fa fa-angle-right"></i>List Dokter</h4>
+<hr>
+
+
+<form name="frm1" id="frm1" method="post" action="{BASE_URL}dokter/doctor" style="margin:auto">
+        <div class="form-group">
+        <h2 style="margin:auto; padding:0"><small>Search</small></h2>
+
+        <div class="col-sm-5">
+            <label>Doctor Name</label>
+                <input class="form-control" type="text" value="{NAMA}" style="width:100%;" name="nama" id="nama" />
+        </div>
+
+        <div class="col-sm-4">
+            <label>Departmen</label>
+            {DEPA}
+        </div>
+<div style="clear:both"></div> 
+
+
+<input type="Submit" value="Search" class="btn btn-warning" style="margin-bottom:1%;margin-top:1%" />
+
+&nbsp;
+
+<input type="button" value="Add Doctor" class="btn btn-default" style="margin-bottom:1%;margin-top:1%" onclick="window.location.replace('{BASE_URL}dokter/addedit_doctor?doctor_id=');"/>
+</div>
+</form>
+<input class="form-control" type="text" value="{LAST}" style="width:12%; float:left" name="last" id="last"  />
+<input type="button" value="Simpan Last Update" class="btn btn-success" style="margin-bottom:1%; float:left; margin-left:10px;margin-right:2%;" onclick="last_update()" />
+
+<form name="frmm" id="frmm" enctype="multipart/form-data" method="post" action="{BASE_URL}dokter/upload_jadwal_act">
+<span class="btn btn-default btn-file" >
+Upload File Jadwal <input type="file" name="file_jadwal" id="file_jadwal" required>
+</span>
+<input type="submit" value="Upload!" class="btn btn-warning"/>
+
+</form>
+<div style="clear:both"></div>
+<br>
+<div style="clear:both"></div>
+
+
+<br>                        <div class="table-responsive" style="width:100%">
+                            <table class="table table-bordered table-hover table-striped" style="font-size:1em">
+                                <thead>
+                                    <tr>
+                                        <th style="width:2%">No</th>
+                                        <th>Photo</th>
+                                        <th>Nama Dokter</th>
+                                        <th style="width:2%">Urutan</th>
+                                        <th width="">Senin</th>
+                                        <th width="">Selasa</th>
+                                        <th width="">Rabu</th>
+                                        <th width="">Kamis</th>
+                                        <th width="">Jumat</th>
+                                        <th width="">Sabtu</th>
+                                        <th width="">Minggu</th>
+                                        <th width="">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                <!-- START LOOPING: row -->
+                                    <tr>
+                                        <td>{VNO}</td>
+                                        <td width="10%"><img src="{BASE_URL}dokter/{PHOTO}" style="width:100%" /></td>
+                                        <td width="30%">{NAMA}<br>{DEPT}</td>
+                                        <td>{URUTAN}</td>
+                                        <td width="10%">{SENIN}</td>
+                                        <td width="10%">{SELASA}</td>
+                                        <td width="10%">{RABU}</td>
+                                        <td width="10%">{KAMIS}</td>
+                                        <td width="10%">{JUMAT}</td>
+                                        <td width="10%">{SABTU}</td>
+                                        <td width="10%">{MINGGU}</td>
+                                        <td>
+                                        <a href="{BASE_URL}dokter/addedit_doctor?doctor_id={DOCTORID}"><i class="fa fa-edit"></i></a>
+                                        &nbsp;
+                                        <a href="{BASE_URL}dokter/delete_doctor?doctor_id={DOCTORID}"><i class="fa  fa-eraser" style="color:#F00"></i></a>
+                                        </td>
+                                    </tr>
+                <!-- END LOOPING: row -->
+                                </tbody>
+                            </table>
+
+</div>
+<script type="text/javascript">
+    function last_update(){
+        last = document.getElementById('last').value;
+
+        PopupCenter('{BASE_URL}dokter/save_last_update/'+last,'xtf','900','500');  
+    }
+
+
+function PopupCenter(url, title, w, h) {
+    // Fixes dual-screen position                         Most browsers      Firefox
+    var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+    var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+    var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+    var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+    var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+    var top = ((height / 2) - (h / 2)) + dualScreenTop;
+    var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+    // Puts focus on the newWindow
+    if (window.focus) {
+        newWindow.focus();
+    }
+}
+
+</script>
+

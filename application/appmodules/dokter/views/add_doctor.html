@@ -1,0 +1,99 @@
+<script src="{BASE_URL}assets/masking.js"></script>
+<script language="javascript">
+jQuery(function($){
+   $(".time").mask("99:99 - 99:99",{placeholder:"hh:mm - hh:mm"});
+});
+
+</script>
+<div style="margin:1%">
+
+<h4><i class="fa fa-angle-right"></i>Add / Edit Dokter</h4>
+<hr>
+
+
+    
+    <form method="post" name="frm" id="frm" action="{BASE_URL}dokter/act_save_dr" enctype="multipart/form-data">
+<div style="width:35%; float:left">
+    <input type="hidden" value="{DOCTORID}" name="doctor_id" />
+        <div class="form-group">
+        <label>Nama Dokter</label>
+            <input class="form-control" type="text" value="{NAMADOKTER}" style="width:100%;" name="nama_dokter" id="nama_dokter" required="required" />
+
+        <label>Department</label>
+        <div style="clear:both"></div>
+        {DEPT}
+        <div style="clear:both"></div>
+        
+
+        <label>Urutan</label>
+        <div style="clear:both"></div>
+            <input class="form-control" type="text" value="{URUTAN}" style="width:20%;" name="urutan" id="urutan" required="required" />
+        <div style="clear:both"></div>
+
+        <label>Photo</label>
+            <input  type="file" name="images" id="images"  />
+    <div style="clear:both"></div>
+				<img src="{BASE_URL}dokter/{PHOTO}" style="max-width:30%; margin:0;" class="image-responsive" />
+    <div style="clear:both"></div>
+
+</div>
+
+  </div>
+<div style="; float:left; width:55%; margin-left:5%">
+                            <table class="table table-bordered table-hover table-striped">
+  <tr>
+    <td style="width:10%">Jadwal</td>
+    <td>Jadwal 1</td>
+    <td>Jadwal 2</td>
+    <td>Jadwal 3</td>
+  </tr>
+  <tr>
+    <td style="width:25%"><input type="checkbox" value="1" name="dis_senin" {chk_senin}> Senin</td>
+    <td><input type="text" value="{SSENIN}" class="time" name="ssenin"></td>
+    <td><input type="text" value="{ESENIN}" class="time" name="esenin"></td>
+    <td><input type="text" value="{ALSENIN}" class="time" name="alsenin"></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" value="1" name="dis_selasa" {chk_selasa}> Selasa</td>
+    <td><input type="text" value="{SSELASA}" class="time" name="sselasa"></td>
+    <td><input type="text" value="{ESELASA}" class="time" name="eselasa"></td>
+    <td><input type="text" value="{ALSELASA}" class="time" name="alselasa"></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" value="1" name="dis_rabu" {chk_rabu}> Rabu</td>
+    <td><input type="text" value="{SRABU}" class="time" name="srabu"></td>
+    <td><input type="text" value="{ERABU}" class="time" name="erabu"></td>
+    <td><input type="text" value="{ALRABU}" class="time" name="alrabu"></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" value="1" name="dis_kamis" {chk_kamis}> Kamis</td>
+    <td><input type="text" value="{SKAMIS}" class="time" name="skamis"></td>
+    <td><input type="text" value="{EKAMIS}" class="time" name="ekamis"></td>
+    <td><input type="text" value="{ALAMIS}" class="time" name="alkamis"></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" value="1" name="dis_jumat" {chk_jumat}> Jumat</td>
+    <td><input type="text" value="{SJUMAT}" class="time" name="sjumat"></td>
+    <td><input type="text" value="{EJUMAT}" class="time" name="ejumat"></td>
+    <td><input type="text" value="{ALJUMAT}" class="time" name="aljumat"></td>
+  </tr>
+  <tr>
+    <td><input type="checkbox" value="1" name="dis_sabtu" {chk_sabtu}> Sabtu</td>
+    <td><input type="text" value="{SSABTU}" class="time" name="ssabtu"></td>
+    <td><input type="text" value="{ESABTU}" class="time" name="esabtu"></td>
+    <td><input type="text" value="{ALABTU}" class="time" name="alabtu"></td>
+  </tr>
+  
+  <tr>
+    <td><input type="checkbox" value="1" name="dis_minggu" {chk_minggu}> Minggu</td>
+    <td><input type="text" value="{SMINGGU}" class="time" name="sminggu"></td>
+    <td><input type="text" value="{EMINGGU}" class="time" name="eminggu"></td>
+    <td><input type="text" value="{ALMINGGU}" class="time" name="alminggu"></td>
+  </tr>
+</table>
+
+</div>
+<div style="clear:both"></div>
+<button class="btn btn-default" type="submit" style="margin-top:1%">Save</button>
+	</form>
+                

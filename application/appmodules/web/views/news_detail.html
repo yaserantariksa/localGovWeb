@@ -1,0 +1,54 @@
+ <div class="banner-area banner-bg-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="banner">
+            <h2>Berita</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div id="news" class="section wb">
+        <div class="container">
+                      <div class="row col-sm-12">
+                            <div class="col-sm-8">
+                                  <div class="message-box">
+                                      <h2>{title}</h2>
+                                      <h4 style="font-weight: 100; font-size: .8em"><i>{tanggal}</i></h4>
+                                      <hr class="hr1"> 
+                                      <img src="{BASEURL}news/{images}" alt="" class="img-responsive img-rounded">
+                                      <p> {content}</p>
+
+                                  </div>
+                            </div>
+                            <div class="col-sm-4">
+                                      <h2>Berita Lainnya</h2>
+                                    <!-- START LOOPING: row -->
+                                    <div class="col-sm-12">
+                                      <div class="col-md-3">
+                                          <div class="post-media wow fadeIn">
+                                              <img src="{BASEURL}news/{images}" alt="" class="img-responsive img-rounded">
+                                          </div>
+                                      </div>
+                                      <div class="col-md-9">
+                                          <div class="message-box">
+                                              <h2  style="font-size: 1em"><a href="{BASEURL}web/newsd/{judulink}">{title}</a></h2>
+                                              <h4 style="font-weight: 100; font-size: .7em"><i>{tanggal}</i></h4>
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div style="clear: both;"></div>
+                                    <hr class="hr1"> 
+                                    <!-- END LOOPING: row -->
+
+                            </div>
+                      </div>
+
+        </div>
+    </div>
+
+  
+{footer}

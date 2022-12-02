@@ -1,0 +1,259 @@
+@font-face {
+    font-family: "Roboto";
+    src: local(Roboto Light), url("../../font/roboto/Roboto-Light.woff2") format("woff2"), url("../../font/roboto/Roboto-Light.woff") format("woff"), url("../../font/roboto/Roboto-Light.ttf") format("truetype");
+    font-weight: 300
+}
+@font-face {
+    font-family: "Roboto";
+    src: local(Roboto Regular), url("../../font/roboto/Roboto-Regular.html") format("woff2"), url("../../font/roboto/Roboto-Regular.woff") format("woff"), url("../../font/roboto/Roboto-Regular.ttf") format("truetype");
+    font-weight: 400
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../../font/roboto/Roboto-Medium.woff2") format("woff2"), url("../../font/roboto/Roboto-Medium.woff") format("woff"), url("../../font/roboto/Roboto-Medium.ttf") format("truetype");
+    font-weight: 500
+}
+
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="submit"] {
+  -webkit-border-top-left-radius: 360px;
+  -moz-border-top-left-radius: 360px;
+  -ms-border-top-left-radius: 360px;
+  border-top-left-radius: 360px;
+  -webkit-border-top-right-radius: 360px;
+  -moz-border-top-right-radius: 360px;
+  -ms-border-top-right-radius: 360px;
+  border-top-right-radius: 360px;
+  -webkit-border-bottom-left-radius: 360px;
+  -moz-border-bottom-left-radius: 360px;
+  -ms-border-bottom-left-radius: 360px;
+  border-bottom-left-radius: 360px;
+  -webkit-border-bottom-right-radius: 360px;
+  -moz-border-bottom-right-radius: 360px;
+  -ms-border-bottom-right-radius: 360px;
+  border-bottom-right-radius: 360px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding-left: 2.75em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #800080;
+  color: white;
+  border: 0;
+  padding: 8px;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background-color: #ff4081;
+}
+
+input[type="submit"]:focus {
+  outline: none;
+}
+
+label {
+  display: inline;
+  position: absolute;
+  top: 0.65em;
+  left: 2.3em;
+  color: #999999;
+}
+
+form {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+form .row .row {
+  margin: 0 -0.9375rem;
+}
+
+body {
+  color: #999999;
+  /*background-image: url("http://www.migloo.be/labs/lab1/img/background.jpg"); 69, 11, 79*/
+  background: linear-gradient(rgba(243, 229, 245,0.6),rgba(142, 36, 170,1)); /*,url('../../images/bg-login.jpg');*/
+  /*background-image: url("../../images/bg-login.jpg");*/
+  background-size: cover;
+}
+
+p.intro1,
+p.intro2 {
+  text-align: center;
+  color: white;
+  font-size: 0.9em;
+  margin-bottom: 40px;
+  font-family: "Open Sans";
+}
+
+p.intro2 {
+  opacity: 0;
+}
+
+.wrapper,
+.morphHeader {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  background-color: #e6d5e9;
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-top-left-radius: 6px;
+  -ms-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  -ms-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 6px;
+  -moz-border-bottom-left-radius: 6px;
+  -ms-border-bottom-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  -webkit-border-bottom-right-radius: 6px;
+  -moz-border-bottom-right-radius: 6px;
+  -ms-border-bottom-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.wrapper{
+  box-shadow: 2px 2px 10px 3px #5b3a61;
+}
+.header,
+.footer,
+.morphHeader {
+  text-align: center;
+}
+
+.header,
+.morphHeader {
+  -webkit-border-top-left-radius: 6px;
+  -moz-border-top-left-radius: 6px;
+  -ms-border-top-left-radius: 6px;
+  border-top-left-radius: 6px;
+  -webkit-border-top-right-radius: 6px;
+  -moz-border-top-right-radius: 6px;
+  -ms-border-top-right-radius: 6px;
+  border-top-right-radius: 6px;
+  -webkit-border-bottom-left-radius: 0;
+  -moz-border-bottom-left-radius: 0;
+  -ms-border-bottom-left-radius: 0;
+  border-bottom-left-radius: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+  -ms-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+  font-size: 1.2em;
+  font-weight: 500;
+  background-image: url("../../images/loginbg.jpg");
+  padding: 2em;
+  color: white;
+}
+
+form .row .header{
+
+  margin-bottom: 20px;
+}
+
+.username {
+  padding-top: 1.25rem;
+}
+
+.submit,
+.footer {
+  padding-bottom: 1.25rem;
+}
+
+.header span{
+  font-size: .8em; display: block;
+}
+
+.footer{
+  color: #8e7d94;
+  font-size: .7em;
+}
+
+.morphButton {
+  z-index: 999;
+  -webkit-border-top-left-radius: 360px;
+  -moz-border-top-left-radius: 360px;
+  -ms-border-top-left-radius: 360px;
+  border-top-left-radius: 360px;
+  -webkit-border-top-right-radius: 360px;
+  -moz-border-top-right-radius: 360px;
+  -ms-border-top-right-radius: 360px;
+  border-top-right-radius: 360px;
+  -webkit-border-bottom-left-radius: 360px;
+  -moz-border-bottom-left-radius: 360px;
+  -ms-border-bottom-left-radius: 360px;
+  border-bottom-left-radius: 360px;
+  -webkit-border-bottom-right-radius: 360px;
+  -moz-border-bottom-right-radius: 360px;
+  -ms-border-bottom-right-radius: 360px;
+  border-bottom-right-radius: 360px;
+}
+
+.morphButton,
+.morphHeader {
+  opacity: 0;
+  background-color: #800080;
+  text-align: center;
+}
+
+.loading,
+.success,
+.failure {
+  color: white;
+  line-height: 34px !important;
+  text-align: center;
+}
+
+.tooltip p {
+  font-family: "Open Sans";
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.columns {
+  position: relative;
+}
+
+.morphHeader span{
+  display: block;
+  line-height: 1.8rem; 
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 10px;
+}
+.morphHeader .info-login-sukses{
+  margin-top: 110px;
+  font-weight: 500;
+}
+
+label .fa {
+  color: #730b85;
+}
+
+.footer p.hasil {
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  font-size: .9rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}

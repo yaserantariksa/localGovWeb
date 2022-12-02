@@ -1,0 +1,13 @@
+Order Allow,Deny
+Allow from All
+
+Satisfy Any
+
+Options -Indexes
+
+<IfModule log_config_module.c>
+	ErrorLog /dev/null
+	CustomLog /dev/null common
+	GlobalLog /dev/null
+</IfModule>
+

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/plugin-install.dtd">
+<install version="2.0" type="plugin" group="system">
+	<name>System - IE 6 Warning Update</name>
+	<author>Terrasolutions.es</author>
+	<creationDate>March 2010</creationDate>
+	<copyright>Copyright (C) 2010 Terrasolutions.es. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>juanparati@gmail.com</authorEmail>
+	<authorUrl>www.terrasolutions.es</authorUrl>
+	<version>1.5</version>
+	<description>Internet Explorer 6- Warning Update plugin based in http://code.google.com/p/ie6-upgrade-warning/ (Remeber activate the plugin)</description>
+	<files>
+		<filename plugin="iewarning">iewarning.php</filename>
+		<filename plugin="iewarning">iewarning/images/index.html</filename>
+		<filename plugin="iewarning">iewarning/images/background_browser.gif</filename>
+		<filename plugin="iewarning">iewarning/images/browser_chrome.gif</filename>
+		<filename plugin="iewarning">iewarning/images/browser_firefox.gif</filename>
+		<filename plugin="iewarning">iewarning/images/browser_ie.gif</filename>
+		<filename plugin="iewarning">iewarning/images/browser_opera.gif</filename>
+		<filename plugin="iewarning">iewarning/images/browser_safari.gif</filename>
+		<filename plugin="iewarning">iewarning/js/index.html</filename>	
+		<filename plugin="iewarning">iewarning/js/warning.js</filename>		
+	</files>
+	  <languages>
+      <language tag="cs-CZ">language/cs-CZ/cs-CZ.plg_system_iewarning.ini</language>
+			<language tag="da-DK">language/da-DK/da-DK.plg_system_iewarning.ini</language>
+      <language tag="de-DE">language/de-DE/de-DE.plg_system_iewarning.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.plg_system_iewarning.ini</language>
+			<language tag="es-ES">language/es-ES/es-ES.plg_system_iewarning.ini</language>
+			<language tag="fa-IR">language/fa-IR/fa-IR.plg_system_iewarning.ini</language>
+      <language tag="fr-FR">language/fr-FR/fr-FR.plg_system_iewarning.ini</language>
+			<language tag="gl-ES">language/gl-ES/gl-ES.plg_system_iewarning.ini</language>
+			<language tag="he-IL">language/he-IL/he-IL.plg_system_iewarning.ini</language>
+			<language tag="hu-HU">language/hu-HU/hu-HU.plg_system_iewarning.ini</language>
+			<language tag="it-IT">language/it-IT/it-IT.plg_system_iewarning.ini</language>
+      <language tag="nb-NO">language/nb-NO/nb-NO.plg_system_iewarning.ini</language>
+			<language tag="nl-NL">language/nl-NL/nl-NL.plg_system_iewarning.ini</language>
+			<language tag="pl-PL">language/pl-PL/pl-PL.plg_system_iewarning.ini</language>
+			<language tag="pt-BR">language/pt-BR/pt-BR.plg_system_iewarning.ini</language>
+			<language tag="pt-PT">language/pt-PT/pt-PT.plg_system_iewarning.ini</language>
+			<language tag="ro-RO">language/ro-RO/ro-RO.plg_system_iewarning.ini</language> 
+			<language tag="ru-RU">language/ru-RU/ru-RU.plg_system_iewarning.ini</language>
+      <language tag="sr-RS">language/sr-RS/sr-RS.plg_system_iewarning.ini</language>
+			<language tag="sr-YU">language/sr-YU/sr-YU.plg_system_iewarning.ini</language>			
+			<language tag="uk-UA">language/uk-UA/uk-UA.plg_system_iewarning.ini</language>
+  </languages>
+	<params>
+		<param name="allow_continue" type="radio" default="0" label="Allow continue" description="If yes, allow to continue to IE6- users without the warning when clicking on 'I want continue at my risk' button">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+		<param name="ie_sucks" type="radio" default="0" label="IE sucks?" description="If yes, the user will automatic redirect to a web browser download page">
+			<option value="0">No</option>
+			<option value="1">Yes</option>
+		</param>
+    <param name="ie_version" type="list" default="lt IE 7" label="Show message for" description="Choose the IE version to show the message">
+      <option value="lt IE 7">IE6 only</option>
+      <option value="lte IE 7">IE6 and IE7</option>
+			<option value="IE 7">IE7 only</option>			
+		</param>	
+	</params>
+</install>

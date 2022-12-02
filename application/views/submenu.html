@@ -1,0 +1,58 @@
+<!-- BEGIN submenu.html -->
+<script language="javascript" type="text/javascript">
+$(document).ready(function () {
+    
+    $(".navcx ul ").css({display: "none"}); // Opera Fix
+    $(".navcx li").hover(function(){
+		$(this).find('ul:first').css({visibility: "visible",display: "none"}).show(300);
+		},function(){
+		$(this).find('ul:first').css({visibility: "hidden"});
+    });
+    
+    
+    var arrowimages = {
+    	down: ['downarrowclass', '{BASE_URL}include/images/arrow-down.gif',25],
+    	right: ['rightarrowclass', '{BASE_URL}include/images/arrow-right.gif']
+        }   
+        
+    var jquerycssmenu = {
+    	fadesettings: {
+    		overduration:350,
+    		outduration:100
+    	},
+    	buildmenu: function(menuid, arrowsvar) {
+    
+        	var $mainmenu = $("."+menuid+">ul")
+        	var $headers = $mainmenu.find("ul").parent()
+        	$headers.each(function(i) {
+        		var $curobj = $(this)
+        		var $subul = $(this).find('ul:eq(0)')
+        		this._dimensions = {
+        			w:this.offsetWidth,
+        			h:this.offsetHeight,
+        			subulw:$subul.outerWidth(),
+        			subulh:$subul.outerHeight()
+        		}
+        		this.istopheader = $curobj.parents("ul").length == 1 ? true : false;
+        		$subul.css({top:this.istopheader ? this._dimensions.h+2 + "px" : 0});
+        		$curobj.children("a:eq(0)")
+        			.css(this.istopheader ? {paddingRight:arrowsvar.down[2]} : {})
+        			.append('<img src="' + (this.istopheader?arrowsvar.down[1]:arrowsvar.right[1])
+        				+'" class="'+(this.istopheader ? arrowsvar.down[0] : arrowsvar.right[0])
+        				+'" style="border:0;" />');
+                $subul.click(function() {
+                    $(this).hide('slow');
+                });
+        	});
+        	$mainmenu.find("ul").css({display:'none',visibility:'visible'});
+	   }
+    }
+    jquerycssmenu.buildmenu("bulid_submenu",arrowimages);
+        
+});
+</script>
+
+<div class="bulid_submenu">
+    {VSUBMENU}
+</div>
+<!-- END submenu.html -->

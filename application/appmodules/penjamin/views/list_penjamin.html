@@ -1,0 +1,86 @@
+<script src="{BASE_URL}assets/ckeditor/ckeditor.js"></script>
+<script src="{BASE_URL}assets/ckeditor/js/sample.js"></script>
+<link rel="stylesheet" href="{BASE_URL}assets/ckeditor/css/samples.css">
+<link rel="stylesheet" href="{BASE_URL}assets/ckeditor/toolbarconfigurator/lib/codemirror/neo.css">
+
+<div style="margin:1%">
+
+<h4><i class="fa fa-angle-right"></i> List Penjamin</h4>
+<hr>
+<div style="clear:both"></div>
+
+<Div style="float:left; font-weight:bold">Informasi</div>
+<div style="clear:both"></div>
+<form method="post" name="frm" id="frm" action="{BASE_URL}penjamin/save_last_update/">
+        <textarea id="editor" class="form-control" style="width:82%; float:left" name="last">{LAST}</textarea>
+<br />
+<input type="submit" value="Simpan Last Update" class="btn btn-success" style="margin-bottom:1%; float:left; margin-left:10px" />
+
+<input type="button" value="Tambah Penjamin" class="btn btn-warning" style="margin-bottom:1%; margin-left:2%" onclick="window.location.replace('{BASE_URL}penjamin/addedit_penjamin?loid=');"/>
+</form>
+<br />
+<br />
+
+                        <div class="table-responsive" style="width:100%">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th style="width:2%">No</th>
+                                        <th>Kode</th>
+                                        <th>Nama</th>
+                                        <th>Deskripsi</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                <!-- START LOOPING: row -->
+                                    <tr>
+                                        <td>{VNO}</td>
+                                        <td width="30%">{KODE}</td>
+                                        <td width="30%">{TITLE}</td>
+                                        <td width="50%">{CONTENT}</td>
+                                        <td>
+                                        <a href="{BASE_URL}penjamin/addedit_penjamin?loid={LOID}"><i class="fa fa-edit"></i></a>
+                                        &nbsp;
+                                        <a href="{BASE_URL}penjamin/delete?loid={LOID}"><i class="fa  fa-eraser" style="color:#F00"></i></a>
+                                        </td>
+                                    </tr>
+                <!-- END LOOPING: row -->
+                                </tbody>
+                            </table>
+
+</div>
+                <!-- /.row -->
+                
+<script type="text/javascript">
+    function last_update(){
+        last = document.getElementById('editor').value;
+
+        PopupCenter('{BASE_URL}penjamin/save_last_update/'+last,'xtf','900','500');  
+    }
+
+
+function PopupCenter(url, title, w, h) {
+    // Fixes dual-screen position                         Most browsers      Firefox
+    var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
+    var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
+
+    var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? document.documentElement.clientWidth : screen.width;
+    var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? document.documentElement.clientHeight : screen.height;
+
+    var left = ((width / 2) - (w / 2)) + dualScreenLeft;
+    var top = ((height / 2) - (h / 2)) + dualScreenTop;
+    var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + ', top=' + top + ', left=' + left);
+
+    // Puts focus on the newWindow
+    if (window.focus) {
+        newWindow.focus();
+    }
+}
+
+
+</script>
+
+<script>
+    initSample();
+</script>

@@ -1,0 +1,22 @@
+<script src="{BASE_URL}assets/masking.js"></script>
+<script language="javascript">
+jQuery(function($){
+   $(".time").mask("99:99:99",{placeholder:"hh:mm:ss"});
+});
+
+</script>
+<div style="margin:1%">
+
+<h4><i class="fa fa-angle-right"></i> Ganti Password</h4>
+<hr>
+
+
+    
+    <form method="post" name="frm" id="frm" action="{BASE_URL}tools/act_ganti_passwd" enctype="multipart/form-data">
+Password Baru : <input type="password" class="form-control" name="pass1" id="pass1" style="width:40%" required />
+
+      <div style="clear:both"></div>
+Ulangi Password : <input type="password" class="form-control" name="pass2" id="pass2" style="width:40%" required />
+<button class="btn btn-default" type="submit" style="margin-top:1%">Save</button>
+</form>
+                

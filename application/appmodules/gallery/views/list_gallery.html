@@ -1,0 +1,47 @@
+<div style="margin:1%">
+<h4><i class="fa fa-angle-right"></i>List Gallery</h4>
+<hr>
+
+
+<input class="btn btn-info" type="button" name="button" value="ADD NEW GALLERY" onclick="window.location.replace('{BASE_URL}gallery/add_new_gallery')">
+<br>
+<br>
+<table id="simple-table" class="table table-striped table-bordered table-hover">
+											<thead>
+												<tr>
+													<th>#</th>
+													<th>Kategori</th>
+													<th>Image</th>
+													<th class="hidden-480">Title</th>
+
+													<th></th>
+												</tr>
+											</thead>
+
+											<tbody>
+                    <!-- START LOOPING: row -->
+												<tr>
+													<td>{VNO}</td>
+													<td>{KAT}</td>
+													<td><img src="{BASE_URL}gallery/{IMG}" style="height:100px;" /></td>
+													<td class="hidden-480">{TITLE}</td>
+													<td>
+                                                   <a href="{BASE_URL}gallery/add_new_gallery?gid={GID}">
+                                                        <button class="btn btn-xs btn-success">
+                                                            <i class="ace-icon fa fa-pencil-square-o bigger-120"></i>
+                                                        </button>
+                                                   </a>
+                                                   &nbsp;
+                                                   <a href="{BASE_URL}gallery/delete_image?gid={GID}">
+                                                        <button class="btn btn-xs btn-danger">
+                                                            <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                        </button>
+                                                   </a>
+                                                    </td>
+												</tr>
+                    <!-- END LOOPING: row -->
+											</tbody>
+										</table>
+
+
+</div>

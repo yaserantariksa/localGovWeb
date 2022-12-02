@@ -1,0 +1,26 @@
+<div class="page-header">
+    <h1>New Slide</h1>
+</div><!-- /.page-header -->
+
+<div style="margin:1%">
+<form action="{BASE_URL}main/act_new_slide_edit" method="post" name="frm1" id="frm1" enctype="multipart/form-data">
+
+<h4 style="display:none"><span>English</span></h4>
+
+<input type="hidden" name="slideid"  value="{SLIDEID}"  style="width:90%; display:none"/>
+<h5 style=" display:none"><span>Title</span></h5>
+<input type="text" name="title_en"  value="{TITEN}"  style="width:90%; display:none"/>
+<h5 style="display:none"><span>Description</span></h5>
+<textarea class="form-control" id="form-field-8" placeholder="Default Text" name="desc_en" style="height:400px; display:none">{DESC_EN}</textarea>
+
+<h4 style="display:none"><span>Indonesian</span></h4>
+
+<h5 style="display:none"><span>Title</span></h5>
+<input type="text" name="title_id"  style="width:90%; display:none" value="{TITID}"/>
+<h5 style="display:none"><span>Description</span></h5>
+<textarea class="form-control" id="form-field-8" placeholder="Default Text" name="desc_id"  style="height:400px; display:none">{DESC_ID}</textarea>
+
+
+<input class="btn btn-info" type="submit" name="Submit" value="SAVE">
+</form>
+</div>

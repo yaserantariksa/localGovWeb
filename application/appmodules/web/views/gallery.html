@@ -1,0 +1,101 @@
+  <div class="banner-area banner-bg-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="banner">
+            <h2>Gallery Kegiatan</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row col-sm-12">
+
+                  <div class="col-sm-4">
+                    <div class="sidebar-nav">
+                      <div class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        </div>
+                        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                          <ul class="nav navbar-nav">
+                            {LI}
+                          </ul>
+                        </div><!--/.nav-collapse -->
+                      </div>
+                    </div>
+                   </div>
+                  <div class="col-sm-8">
+
+                 <div class="row">
+                     {GAL}
+                  </div>
+                </div>
+                <div tabindex="-1" class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                    <button class="close" type="button" data-dismiss="modal">×</button>
+                  </div>
+                  <div class="modal-body">
+                    
+                  </div>
+                  <div class="modal-footer">
+                    <button class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                   </div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+{footer}
+    
+    <script language="javascript">
+    $(document).ready(function() {
+    $('.thumbnail').click(function(){
+          $('.modal-body').empty();
+        var title = $(this).parent('a').attr("title");
+        $('.modal-title').html(title);
+        $($(this).parents('div').html()).appendTo('.modal-body');
+        $('#myModal').modal({show:true});
+    });
+    });
+    </script>
+<style type="text/css">
+/* make sidebar nav vertical */ 
+.modal-dialog {width:1024px;}
+.thumbnail {margin-bottom:6px;}
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+</style>

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>RSIA Vitalaya</title>
+
+	<!-- core CSS -->
+    <link href="{BASEURL}frontmodules/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{BASEURL}frontmodules/css/font-awesome.min.css" rel="stylesheet">
+    <link href="{BASEURL}frontmodules/css/animate.min.css" rel="stylesheet">
+    <link href="{BASEURL}frontmodules/css/owl.carousel.css" rel="stylesheet">
+    <link href="{BASEURL}frontmodules/css/owl.transitions.css" rel="stylesheet">
+    <link href="{BASEURL}frontmodules/css/prettyPhoto.css" rel="stylesheet">
+    <link href="{BASEURL}frontmodules/css/main.css" rel="stylesheet">
+    <link href="{BASEURL}frontmodules/css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="{BASEURL}frontmodules/js/html5shiv.js"></script>
+    <script src="{BASEURL}frontmodules/js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="{BASEURL}frontmodules/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{BASEURL}frontmodules/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{BASEURL}frontmodules/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{BASEURL}frontmodules/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="{BASEURL}frontmodules/images/ico/apple-touch-icon-57-precomposed.png">
+<style>.owl-carousel > .item > img,.carousel-inner > .item > a > img { width: 80%; margin: auto;}</style>
+
+<style type="text/css">
+	.modal-dialog {
+			width:95%;	
+		}
+	table tbody tr td {
+			font-size:.8em;
+			color:#666;
+		}
+
+	table thead tr th {
+			font-size:.8em;
+			text-align:center;
+			background:#31A0FB;
+			color:#333;
+			vertical-align:middle;
+		}
+		
+	.pagination {
+			margin:auto;
+			padding:0px;	
+		}
+	
+	
+
+</style>
+
+<script language="javascript">
+
+	function search_dok(){
+		nama_dokter  = document.getElementById('nama_dokter').value;
+		did          = document.getElementById('did').value;
+		
+		document.searchdk.form.submit();
+
+		}
+</script>
+<style>.carousel-inner > .item > img,.carousel-inner > .item > a > img { width: 100%; height:100%; margin: auto;}</style>
+
+</head><!--/head-->
+
+<body id="home" class="homepage">
+{header}
+<br>
+        <section id="features">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-12" >
+                    <h3 style="color:#666"><span style="font-size:2em">Maaf...</span><br>Halaman Yang Anda Cari Tidak Di Temukan!!</h3><br>
+                    <img src="{BASEURL}frontmodules/images/logo.png">
+                    </div><!-- .col-md-12 close -->
+                </div><!-- row close -->
+            </div>
+        </section>
+        
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2018 | RSIA Vitalaya
+                </div>
+                <div class="col-sm-6" style="display:none">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                        <li><a href="#"><i class="fa fa-flickr"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="{BASEURL}frontmodules/js/jquery.js"></script>
+    <script src="{BASEURL}frontmodules/js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="{BASEURL}frontmodules/js/owl.carousel.min.js"></script>
+    <script src="{BASEURL}frontmodules/js/mousescroll.js"></script>
+    <script src="{BASEURL}frontmodules/js/smoothscroll.js"></script>
+    <script src="{BASEURL}frontmodules/js/jquery.prettyPhoto.js"></script>
+    <script src="{BASEURL}frontmodules/js/jquery.isotope.min.js"></script>
+    <script src="{BASEURL}frontmodules/js/jquery.inview.min.js"></script>
+    <script src="{BASEURL}frontmodules/js/wow.min.js"></script>
+    <script src="{BASEURL}frontmodules/js/main.js"></script>
+    <script type="text/javascript" src="{BASEURL}frontmodules/captcha/js/epicaptcha.js"></script>
+    <link rel="stylesheet" href="{BASEURL}frontmodules/captcha/css/epicaptcha.css" type="text/css">
+    <script type="text/javascript">
+            $(function() {
+                $("#epicaptcha").Epicaptcha({
+                buttonID: "epi",
+                theFormID: "contact-form"
+                });
+            });
+
+	function cek_send(){
+	
+	status = document.getElementById('status').value;
+			if (status !='lolos'){
+				return false;
+			}else{
+				return true;
+			}
+		}
+    </script>
+    
+
+ <div id="view-news" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+             <div class="modal-dialog"> 
+                  <div class="modal-content"> 
+                  
+                       <div class="modal-header"> 
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> 
+                            <h4 class="modal-title">
+                            	<span id="judul"></span>
+                            </h4> 
+                       </div> 
+                       <div class="modal-body"> 
+                       	    
+                       	    <div id="dynamic-content">
+                                                     
+                             <div class="row"> 
+                                  <div class="col-md-12"> 
+
+                            	<span id="image" class="col-sm-3"></span>
+                            	<span id="isi" class="col-sm-8"></span>
+                            	<span id="pdf" class="col-sm-8"></span>
+                                  </div> 
+                             </div> 
+                             
+                             </div>
+                             
+                        </div> 
+                 </div> 
+              </div>
+       </div>
+
+ <div id="view-unggulan" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+             <div class="modal-dialog"> 
+                  <div class="modal-content"> 
+                  
+                       <div class="modal-header"> 
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button> 
+                            <h4 class="modal-title">
+                            	<span id="judul_unggulan"></span>
+                            </h4> 
+                       </div> 
+                       <div class="modal-body"> 
+                       	    
+                       	    <div id="dynamic-content_unggulan">
+                                                     
+                             <div class="row"> 
+                                  <div class="col-md-12"> 
+
+                            	<span id="image_unggulan" class="col-sm-3"></span>
+                            	<span id="isi_unggulan" class="col-sm-8"></span>
+                                  </div> 
+                             </div> 
+                             
+                             </div>
+                             
+                        </div> 
+                 </div> 
+              </div>
+       </div>
+              
+ <script>
+$(document).ready(function(){
+	
+	/* get single record */
+	$(document).on('click', '#show_news', function(e){
+		
+		e.preventDefault();
+		
+		var news_id = $(this).attr('data-id');
+		
+		$('#dynamic-content').hide();
+		$.ajax({
+			url: '{BASEURL}web/show_news',
+			type: 'POST',
+			data: 'news_id='+news_id,
+			dataType: 'json'
+		})
+		.done(function(data){
+			console.log(data);
+			$('#dynamic-content').hide();	
+			$('#dynamic-content').show();
+			$('#judul').html(data.judul);
+			$('#image').html(data.image);
+			$('#isi').html(data.isi);
+			$('#pdf').html(data.pdf);
+			
+		})
+		.fail(function(){
+			alert('Ajax Request Failed...');
+		});
+			
+	});
+	/* get single record */	
+	
+});
+
+$(document).ready(function(){
+	
+	/* get single record */
+	$(document).on('click', '#show_unggulan', function(e){
+		
+		e.preventDefault();
+		
+		var lid = $(this).attr('data-id');
+		
+		$('#dynamic-content_ungglan').hide();
+		
+		$.ajax({
+			url: '{BASEURL}web/show_unggulan',
+			type: 'POST',
+			data: 'lid='+lid,
+			dataType: 'json'
+		})
+		.done(function(data){
+			console.log(data);
+
+			$('#dynamic-content_unggulan').hide();	
+			$('#dynamic-content_unggulan').show();
+			$('#judul_unggulan').html(data.judul);
+			$('#image_unggulan').html(data.image);
+			$('#isi_unggulan').html(data.isi);
+			
+		})
+		.fail(function(){
+			alert('Ajax Request Failed...');
+		});
+			
+	});
+	/* get single record */	
+	
+});
+
+</script>
+    
+</body>
+</html>

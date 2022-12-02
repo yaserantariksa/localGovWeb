@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<install type="module" version="1.5.0">
+    
+	<name>Noticeboard</name> 
+    <author>SP</author> 
+    <creationDate>2009-10-21</creationDate> 
+    <copyright>All rights reserved by SP 2009.</copyright> 
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license> 
+    <authorEmail>sp@code-garage.com</authorEmail> 
+    <authorUrl>http://www.code-garage.com</authorUrl> 
+    <version>1.0</version> 
+    <description> This module displays notices created by the Noticeboard component. Make sure you install Noticeboard component first. </description>
+ 
+	<files>
+    	<filename module="mod_noticeboard">mod_noticeboard.php</filename>
+        <filename>index.html</filename>
+        <filename>helper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<filename>assets/qscroller.php</filename>
+		<filename>assets/index.html</filename>
+	</files>
+ 
+    <params>
+    	<param name="count" type="text" default="5" label="No. of Notices" description="Number of notices to display" />
+        <param name="width" type="text" default="150" label="Width" description="Width of NoticeBoard" />		
+        <param name="height" type="text" default="150" label="Height" description="Height of NoticeBoard" />
+		<param name="text_size" type="text" default="10" label="Text Size" description="Text Size" />						
+        <param name="bg_color" type="text" default="#F0F0F0" label="Background Color" description="NoticeBoard Background Color" />
+        <param name="border_color" type="text" default="#CCC" label="Border Color" description="Border Color" />
+        <param name="border_width" type="text" default="10" label="Border Width" description="Width of NoticeBoard Border" />
+		<param name="scroll_speed" type="text" default="3000" label="Scroll Speed" description = "Scrolling Speed. Lesser is faster" />
+		<param name="scroll_delay" type="text" default="1000" label="Scroll Delay" description = "Waiting time before display next notice " />
+        <param name="border_style" type="list" default="Groove" label="Select Border Style" description="Border Style of NoticeBoard" >
+			<option value="solid">Solid</option>
+			<option value="dashed">Dashed</option>
+			<option value="dotted">Dotted</option>
+			<option value="double">Double</option>
+			<option value="groove">Groove</option>
+			<option value="hidden">Hidden</option>
+			<option value="inset">Inset</option>
+			<option value="outset">Outset</option>
+			<option value="none">None</option>
+		</param>
+		<param name="show_title" type="list" default = "yes" label="Show Title" description = " Show title" >
+			<option value="yes">Yes</option>
+			<option value="no">No</option>
+		</param>
+        <param name="spacing" type="text" default="3" label="Spacing" description="Spacing" />		
+    </params>
+</install>

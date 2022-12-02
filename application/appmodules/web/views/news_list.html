@@ -1,0 +1,43 @@
+ <div class="banner-area banner-bg-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="banner">
+            <h2>Berita</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div id="news" class="section wb">
+        <div class="container">
+                      <div class="row">
+                            <!-- START LOOPING: row -->
+                            <div class="col-sm-12">
+                              <div class="col-md-3">
+                                  <div class="post-media wow fadeIn">
+                                      <img src="{BASEURL}frontmodules/uploads/about_01.jpg" alt="" class="img-responsive img-rounded">
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="message-box">
+                                      <h2><a href="{BASEURL}web/newsd/{judulink}">{title}</a></h2>
+                                      <h4 style="font-weight: 100; font-size: .8em"><i>{tanggal}</i></h4>
+                                      <p> {content}</p>
+
+                                  </div>
+                              </div>
+                            </div>
+                            <div style="clear: both;"></div>
+                            <hr class="hr1"> 
+                            <!-- END LOOPING: row -->
+                            {PREVNEXT}
+                      </div>
+
+        </div>
+    </div>
+
+  
+{footer}

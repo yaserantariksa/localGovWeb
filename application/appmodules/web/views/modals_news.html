@@ -1,0 +1,66 @@
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-remove"></i></button>
+        <h4 class="modal-title" id="myModalLabel">
+            {TITLE}
+            <a class="anchorjs-link" href="#myModalLabel"><span class="anchorjs-icon"></span></a>
+        </h4>
+    </div>
+
+
+    <div class="modal-body">
+            <form name="frm" id="frm"  method="post" action="{BASEURL}appmodules/add_asset_act" >
+            
+            <input type="hidden" value="{ASID}" name="asid" id="asid" />
+                            <table class="table table-bordered table-hover" style="width:100%">
+                              <tr>
+                                <td>Klasifikasi</td>
+                                <td>{KLASIFIKASI}</td>
+                                <td>Rev</td>
+                                <td><input name="rev" type="text" class="form-control" id="rev" style="width:50%" value="{REV}"  required="required" placeholder="Rev" /></td>
+                              </tr>
+                              <tr>
+                                <td>Kode</td>
+                                <td><input class="form-control"  required="required" id="kode" name="kode" value="{KODE}" placeholder="Kode" type="text"></td>
+                                <td>Masa Berlaku</td>
+                                <td><input name="masa_berlaku" type="text" class="form-control" id="masa_berlaku" value="{MASABERLAKU}"  required="required" placeholder="Masa Berlaku"></td>
+                              </tr>
+                              <tr>
+                                <td>Nama Asset</td>
+                                <td><input name="nama_asset" type="text" class="form-control" id="nama_asset" value="{NMASSET}"  required="required" placeholder="Nama Asset"></td>
+                                <td>Kerahasiaan</td>
+                                <td><input name="kerahasiaan" type="text" class="form-control" id="kerahasiaan"  style="width:50%" value="{KERAHASIAAN}"  required="required" placeholder="Kerahasian"></td>
+                              </tr>
+                              <tr>
+                                <td>Sub Klasifikasi</td>
+                                <td><input name="sub_klasifikasi" type="text" class="form-control" id="sub_klasifikasi" value="{SUBKLARIFIKASI}"  required="required" placeholder="Sub Klasifikasi"></td>
+                                <td>Integritas</td>
+                                <td><input name="integritas" type="text" class="form-control" id="integritas"  style="width:50%" value="{INTEGRITAS}"  required="required" placeholder="Integritas"></td>
+                              </tr>
+                              <tr>
+                                <td>Format Penyimpanan</td>
+                                <td><input name="format_penyimpanan" type="text" class="form-control" id="format_penyimpanan" value="{FORMATPENYIMPANAN}"  required="required" placeholder="Format Penyimpanan"></td>
+                                <td>Ketersediaan</td>
+                                <td><input  name="ketersediaan" type="text" class="form-control" id="ketersediaan" value="{KETERSEDIAAN}"  required="required" placeholder="Ketersediaan"></td>
+                              </tr>
+                              <tr>
+                                <td height="26">Pemilik Asset</td>
+                                <td><input name="pemilik_asset" type="text" class="form-control" id="pemilik_asset" value="{PEMILIKASSET}"  required="required" placeholder="Pemilik Asset"></td>
+                                <td>Nilai</td>
+                                <td><input name="nilai" type="text" class="form-control" id="nilai"  style="width:50%" value="{NILAI}"  required="required" placeholder="nilai"></td>
+                              </tr>
+                              <tr>
+                                <td>Keterangan</td>
+                                <td colspan="3">
+                                <textarea name="keterangan" class="form-control"  required="required" placeholder="keterangan">{KETERANGAN}</textarea>
+                                </td>
+                              </tr>
+                            </table>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="submit" id="submitForm" class="btn btn-default">Send</button>
+         <div class="cm-footer"></div>
+    </div>
+                
+</form>
+                      </div>
+                    </div>

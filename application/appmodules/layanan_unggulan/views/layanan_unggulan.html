@@ -1,0 +1,36 @@
+<div style="margin:1%">
+
+<h4><i class="fa fa-angle-right"></i> List Promo</h4>
+<hr>
+<input type="button" value="Tambah Layanan Unggulan" class="btn btn-default" style="margin-bottom:1%" onclick="window.location.replace('{BASE_URL}layanan_unggulan/addedit_pelayanan?proid=');"/>
+<br />
+
+                        <div class="table-responsive" style="width:100%">
+                            <table class="table table-bordered table-hover table-striped">
+                                <thead>
+                                    <tr>
+                                        <th style="width:2%">No</th>
+                                        <th>Nama</th>
+                                        <th>Deskripsi</th>
+                                        <th>Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                <!-- START LOOPING: row -->
+                                    <tr>
+                                        <td>{VNO}</td>
+                                        <td width="30%">{TITLE}</td>
+                                        <td width="50%">{CONTENT}</td>
+                                        <td>
+                                        <a href="{BASE_URL}layanan_unggulan/addedit_pelayanan?lid={LID}"><i class="fa fa-edit"></i></a>
+                                        &nbsp;
+                                        <a href="{BASE_URL}layanan_unggulan/delete?lid={LID}"><i class="fa  fa-eraser" style="color:#F00"></i></a>
+                                        </td>
+                                    </tr>
+                <!-- END LOOPING: row -->
+                                </tbody>
+                            </table>
+
+</div>
+                <!-- /.row -->
+                

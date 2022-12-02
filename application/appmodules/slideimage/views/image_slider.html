@@ -1,0 +1,41 @@
+<div class="col-md-12" style="overflow:visible">
+<h4><i class="fa fa-angle-right"></i>Image Slide</h4>
+<hr>
+
+<div style="margin:1%">
+
+
+<input class="btn btn-info btn-sm" type="button" name="button" value="ADD NEW Slide" onclick="window.location.replace('{BASE_URL}slideimage/add_new_slide')">
+<br>
+<br>
+<table id="simple-table" class="table table-striped table-bordered table-hover">
+											<thead>
+												<tr>
+													<th>#</th>
+													<th>Image</th>
+													<th></th>
+												</tr>
+											</thead>
+
+											<tbody>
+                    <!-- START LOOPING: row -->
+												<tr>
+													<td>{VNO}</td>
+													<td><img src="../slide/{IMG}" style="height:100px;" /></td>
+													<td>
+
+
+
+                                                   <a href="{BASE_URL}slideimage/delete_slide?slideid={SLIDEID}">
+                                                        <button class="btn btn-xs btn-danger">
+                                                            <i class="ace-icon fa fa-trash-o bigger-120"></i>
+                                                        </button>
+                                                   </a>
+                                                    </td>
+												</tr>
+                    <!-- END LOOPING: row -->
+											</tbody>
+										</table>
+
+
+</div>

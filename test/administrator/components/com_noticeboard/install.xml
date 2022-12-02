@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install type="component" version="1.5.0">
+	<name>NoticeBoard</name>
+	<creationDate>2009-10-15</creationDate>
+	<author>Saroj Pant</author>
+	<authorEmail>support@code-garage.com</authorEmail>
+	<authorUrl>http://www.code-garage.com</authorUrl>
+	<copyright>All rights reserved by SP 2009.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1.1</version>
+	<description>
+		Noticeboard component allows you to manage notices. These notices can be displayed at frontend using noticeboard module.  
+	</description>
+
+
+	<install>
+		<sql>
+			<file charset="utf8" driver="mysql">install.sql</file>
+		</sql>
+	</install>
+	<uninstall>
+		<sql>
+			<file charset="utf8" driver="mysql">uninstall.sql</file>
+		</sql>
+	</uninstall>
+	
+	<files folder="site">
+
+		<filename>index.html</filename>
+		<filename>controller.php</filename>
+		<filename>noticeboard.php</filename>
+
+		<filename>controllers/index.html</filename>
+		<filename>controllers/noticeboard.php</filename>
+		
+		<filename>models/index.html</filename>
+		<filename>models/noticeboard.php</filename>
+		<filename>models/noticeboards.php</filename>
+
+		<filename>tables/index.html</filename>
+		<filename>tables/noticeboard.php</filename>
+		
+		<filename>views/noticeboard/index.html</filename>
+		<filename>views/noticeboard/view.html.php</filename>
+		<filename>views/noticeboard/tmpl/index.html</filename>
+		<filename>views/noticeboard/tmpl/form.php</filename>
+
+
+		<filename>views/noticeboards/index.html</filename>
+		<filename>views/noticeboards/view.html.php</filename>
+		<filename>views/noticeboards/tmpl/index.html</filename>
+		<filename>views/noticeboards/tmpl/default.php</filename>
+		
+	</files>	
+	
+	<administration>
+		<menu>Notice Board</menu>
+		
+		<files folder="admin">
+
+			<filename>index.html</filename>
+			<filename>controller.php</filename>
+			<filename>noticeboard.php</filename>
+			<filename>install.sql</filename>
+			<filename>uninstall.sql</filename>
+
+			<filename>controllers/index.html</filename>
+			<filename>controllers/noticeboard.php</filename>
+
+			<filename>helpers/index.html</filename>
+			<filename>helpers/general.css</filename>
+			<filename>helpers/norounded.css</filename>
+			<filename>helpers/rounded.css</filename>
+			<filename>helpers/style.css</filename>
+			<filename>helpers/toolbar.php</filename>
+
+			<filename>models/index.html</filename>
+			<filename>models/noticeboard.php</filename>
+			<filename>models/noticeboards.php</filename>
+
+			<filename>tables/index.html</filename>
+			<filename>tables/noticeboard.php</filename>
+
+			<filename>views/noticeboard/index.html</filename>
+			<filename>views/noticeboard/view.html.php</filename>
+			<filename>views/noticeboard/tmpl/index.html</filename>
+			<filename>views/noticeboard/tmpl/form.php</filename>
+
+			<filename>views/noticeboards/index.html</filename>
+			<filename>views/noticeboards/view.html.php</filename>
+			<filename>views/noticeboards/tmpl/index.html</filename>
+			<filename>views/noticeboards/tmpl/default.php</filename>
+
+
+		</files>		
+	</administration>
+</install>
